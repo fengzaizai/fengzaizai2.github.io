@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.all {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.one,.two,.three,.four {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.skin{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 30%;
+  z-index: -99;
+}
+.one {
+  background:url(../imgs/img4.jpg) no-repeat 0 0 ;
+  background-size: cover;
+}
+.one .myName{
+  border-radius: 50px;
+  width: 700px;
+  height: 280px;
+  position: absolute;
+  opacity: 50%;
+  z-index: 99;
+  left: 50%;
+  top: 150%;
+  transform: translate(-350px,-140px);
+}
+.one .myName:hover{
+  background-color:white;
+  opacity: 50%;
+  box-shadow: 10px 10px 10px  black;
+  transition: all 1s linear;
+}
+.myName .myName_1{
+  font-size: 40px;
+  position: absolute;
+  left: 200px;
+}
+.myName .myName_2{
+  font-size: 30px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
+.myName .myName_3{
+  width: 100px;
+  height: 50px;
+  border: none;
+  position: absolute;
+  left: 290px;
+  top: 200px;
+  background-color: transparent;
+  font-size: 20px;
+}
+.myName .myName_3:hover{
+
+  background-color: #465670;
+}
+.two {
+  position: relative;
+  background:url(/我的简历/imgs/img5.jpg) no-repeat 0 0 ;
+  background-size: cover;
+}
+.two .aboutMe{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+.aboutMe .photo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+.photo .photo_1{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+}
+.photo_1 span{
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  left: 40px;
+  top: 70px;
+}
+.aboutMe .aboutMe_1{
+  position: absolute;
+  top: 50%;
+}
+.three {
+  background-color: green;
+}
+
+.four {
+  background-color: blue;
+}
