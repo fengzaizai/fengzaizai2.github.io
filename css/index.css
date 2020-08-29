@@ -120,7 +120,9 @@ body {
   top: 50%;
 }
 .three {
-  background-color: green;
+  position: relative;
+  background:url(../imgs/img3.jpg) no-repeat 0 0 ;
+  background-size: cover;
 }
 
 .four {
