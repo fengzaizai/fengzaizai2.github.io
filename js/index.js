@@ -28,7 +28,7 @@ window.onload = function(){
           }
         }
         $(".all").stop().animate({top:Width+'px'});
-        console.log(Width)
+        
       }
       document.onkeydown = keyDown;
       $(".myName_3").click(function(){
