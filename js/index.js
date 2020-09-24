@@ -41,6 +41,7 @@ window.onload = function(){
       //Firefox事件：DOMMouseScroll、IE/Opera/Chrome事件：mousewheel
       var mousewheel = isFirefox ? "DOMMouseScroll" : "mousewheel";
       
+      
     }(window))
   
 }
